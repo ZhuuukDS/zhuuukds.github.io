@@ -1,3 +1,0 @@
-# Alex Zhukov Personal portfolio
-
-
