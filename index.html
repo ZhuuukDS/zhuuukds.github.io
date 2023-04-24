@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Zhukov - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Alex Zhukov" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alex Zhukov">Alex Zhukov</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:zhuuukds@gmail.com" class="contact-link">zhuuukds@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+972 533432370" class="contact-link">+972 533432370</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kiryat Motzkin, Haifa Region, Israel</address>
+            </div>
+
+          </li>
+
+        </ul>
+		
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/zhukov.alex.7" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/ZhuuukDS" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I'm Alex.<br>
+			<br>
+			As a data enthusiast with a passion for using data analytics and data science to drive business insights, I am skilled in tools such as SQL, Excel, Python, and Power BI. 
+
+			I am constantly seeking new opportunities to leverage my skills and experience to help organizations unlock the full potential of their data. 
+
+          </p>
+
+          <p>
+			Whether through comprehensive data analysis, visualization, or machine learning, I am dedicated to delivering high-quality data-driven solutions that drive business growth and success.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data_analysis.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  I'm a pro at exploratory data analysis using statistical methods to find hidden patterns and insights buried deep in data
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data_science.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  I apply data science techniques to do predictive analysis, so businesses can make informed decisions and stay ahead of the game 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/vis.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visualizations</h4>
+
+                <p class="service-item-text">
+                  I have a knack for building visually stunning and informative data visualizations that help communicate insights from complex data in a way that's easy to understand
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI, Programming</h4>
+
+                <p class="service-item-text">
+                  I love using AI, including Machine Learning, NLP, and Deep Learning, to create smart algorithms, apps and scripts
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+		
+		<a href='https://github.com/ZhuuukDS/ZhuuukDS.github.io/raw/main/files/alexey_zhukov_CV_da.pdf'><h4 class="h4 timeline-item-title">Download PDF</h4></a>
+		<br>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Colorado Boulder | CO, US (remote, online)</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                An online data science master's degree (MS-DS) designed to prepare the next generation of data scientists to successfully work and collaborate with others across a variety of scientific, business, and other fields.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Elevation ItWorks RISE-HIGH-Tech Data Analysis Bootcamp | Israel</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                An industry-based intensive Data Analyst Bootcamp that covers SQL, Excel, Power BI and Python (pandas, matplotlib)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Information Technologies, Mechanics, and Optics | St. Petersburg, RU</h4>
+
+              <span>2002 — 2008</span>
+
+              <p class="timeline-text">
+                Bachelors Degree in Operations Management and Supervision
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst, Data Scientist | freelance</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                • With sophisticated data analysis, I applied ML techniques for classification, regression and clustering <br>
+				• Created ML models that were used to find insights and predict outcomes <br>
+				• Developed BI reports and dashboards for the customer with various BI tools (PBI, QlikSense, Tableau)
+				• Completed more than 15 (product/social) data analysis projects with different levels of complexity <br>
+				• Data mining, data parsing, web scraping projects for retrieving and cleaning valid information
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst, Technical Customer Service Manager | Pankaboard</h4>
+
+              <span>2015 — 2022</span>
+
+              <p class="timeline-text">
+                • Made data-driven decisions based on the customers inquiries retrieved with SQL queries <br>
+				• Analyzed data from the customer claims concerning material quality using Python and R and created Power BI and Excel dashboards <br>
+				• Analyzed production report data (got by SQL queries) to find out patterns and outliers with statistical tools (R) <br>
+				• Created reports in QlikView and Excel charts based on data from production to present it to the management team
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Packaging Development Engineer | Philip Morris International</h4>
+
+              <span>2010 — 2015</span>
+
+              <p class="timeline-text">
+                • Implemented Marketing ideas over technical solutions and commercialization in packaging development) <br>
+				• Developed packaging materials for cigarettes, conducted tests, provided with technical solutions and support) <br>
+				• Initiated technical specifications modifications to improve productivity and efficiency. Lead the innovation and cost reduction projects that helped to reduce expenses in purchased materials by 20%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+			
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="50">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Visualizations</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+			
+			 <li class="filter-item">
+              <button data-filter-btn>AI, Programming</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Visualizations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+			  
+			  <li class="filter-item">
+               <button data-filter-btn>AI, Programming</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/tree/main/LinkedIn_job_postings">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thumb.png" alt="Data Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LinkedIn Job Postings Analysis</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+			
+            <li class="project-item  active" data-filter-item data-category="visualizations">
+              <a href="https://github.com/ZhuuukDS/Data-Visualizations/tree/main/taxi_ny_map">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/taxi_gif.gif" alt="taxi_map" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Taxi Locations on Map</h3>
+
+                <p class="project-category">Visualizations</p>
+
+              </a>
+            </li>
+			
+            <li class="project-item  active" data-filter-item data-category="ai, programming">
+              <a href="https://github.com/ZhuuukDS/telegram_chatbot_with_image_creation">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/screenshot_bot.png" alt="AI, Programming" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Telegram Chat Bot</h3>
+
+                <p class="project-category">AI, Programming</p>
+
+              </a>
+            </li>			
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/ZhuuukDS/Machine-Learning/tree/main/Customers_clustering">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rfm_plot.png" alt="Customer RFM Segmentation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Customer RFM Segmentation</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/tree/main/Tennis%20Points%20Distribution%20Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rtt.png" alt="Tennis Points" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tennis Points Analysis</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="visualizations">
+              <a href="https://github.com/ZhuuukDS/Data-Visualizations/tree/main/Israeli_Population_Density">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/israel.png" alt="Israel Population Density" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Israel Population Density</h3>
+
+                <p class="project-category">Visualizations</p>
+
+              </a>
+            </li>
+			
+            <li class="project-item  active" data-filter-item data-category="visualizations">
+              <a href="https://github.com/ZhuuukDS/Data-Visualizations/tree/main/Plotly_in_PowerBI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/r_pbi.png" alt="PBI custom visuals" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Power BI Interactive Charts</h3>
+
+                <p class="project-category">Visualizations</p>
+
+              </a>
+            </li>			
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/ZhuuukDS/Machine-Learning/tree/main/taxi_price_prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/corr.png" alt="Taxi Price Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Taxi Price Prediction</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Visualizations/tree/main/COVID-19%20Vaccination_Tableau">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/covid.png" alt="COVID-19 Vaccination" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">COVID-19 Vaccination Overview</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="visualizations">
+              <a href="https://github.com/ZhuuukDS/Data-Visualizations/tree/main/Related_products_wordcloud">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bike.png" alt="Related products wordcloud" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Related Products Wordcloud</h3>
+
+                <p class="project-category">Visualizations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai, programming">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/tree/main/Algorithmic%20Trading%20Bot">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bot.png" alt="Algotrading Bot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Algotrading Bot</h3>
+
+                <p class="project-category">AI, Programming</p>
+
+              </a>
+            </li>	
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/tree/main/Chess%20Games%20Results%20Exploratory%20Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gen.png" alt="Chess Games Results Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Chess Games Results Analysis</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/tree/main/Shooting%20Cases%20Statistical%20Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nypd.png" alt="NYPD Shooting Cases Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NYPD Shooting Cases Analysis</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/ZhuuukDS/Data-Analysis/blob/main/Life%20Expectancy%20EDA/README.md">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/life.png" alt="Life Expectancy EDA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Life Expectancy EDA</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/ZhuuukDS/Machine-Learning/tree/main/MOOC_students_prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mooc.png" alt="Students Behaviour Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Students Behaviour Prediction</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+
+			
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d278376.0368596981!2d34.953292246837435!3d32.791724423609956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1678036116154!5m2!1sen!2sil" width="600" height="450" style="border:0;" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+
